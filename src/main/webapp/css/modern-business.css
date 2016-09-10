@@ -33,7 +33,10 @@ html, body {
 	border-left: 2px solid;
 	padding-left: 0.3em;
 }
-
+.social{
+	margin-right: 20px;
+	margin-bottom:10px;
+}
 .nav .navbar-nav {
 	color: white;
 }
@@ -82,10 +85,22 @@ html, body {
 .spacerspan {
 	padding: 0 5px;
 }
-
+.panels{
+  border-radius: 0 !important;
+  margin: 20px 0px 20px 0px;
+  font-family: Alegreya SC;
+}
+.panels-head{
+	background-color: #b30000 !important;
+	color:white !important;
+}
+.panels-body{
+	background-color: #b30000 !important;
+	color:white;
+}
 .spanimage {
 	color: white;
-	font: bold 32px/45px Cinzel, Sans-Serif;
+	font: bold 44px/45px Alegreya SC, Sans-Serif;
 	letter-spacing: -1px;
 	background: rgb(0, 0, 0); /* fallback color */
 	background: rgba(0, 0, 0, 0.7);
@@ -93,8 +108,8 @@ html, body {
 }
 
 .pspanimage {
-	color: white;
-	font: bold 26px/45px Josefin Slab, Sans-Serif;
+	color: orange;
+	font: bold 18px/45px Josefin Slab, Sans-Serif;
 	letter-spacing: -1px;
 	background: rgb(0, 0, 0); /* fallback color */
 	background: rgba(0, 0, 0, 0.7);
