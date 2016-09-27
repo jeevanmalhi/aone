@@ -14,12 +14,20 @@ html, body {
 .nav >li >a {
   padding-top: 30px;
   padding-bottom: 30px;
+  transition: all 0.3s ease;
 }
 .navbar-toggle {
   padding: 10px;
   margin: 25px 15px 25px 0;
 }
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: black !important;
+}
 
+.dropdown-menu > li > a, dropdown-menu>li>a{
+	 background-color: black !important;
+	 color: white;
+}
 
 .pr-lis{
 	background-color:#ff0000 !important;
@@ -38,6 +46,7 @@ html, body {
 	border: none;
 	height: 110px;
 	margin-top: 0px;
+	margin-bottom: 20px;
 }
 
 .navbar-default .navbar-brand {
@@ -60,19 +69,28 @@ html, body {
 }
 .social{
 	margin-right: 20px;
-/*	margin-bottom:10px;*/
+	margin-bottom:10px;
 }
+
+
+
 .nav .navbar-nav {
 	color: white;
 }
 
 .navbar-fixed-top {
-	height: 150px; /* Whatever you want. */
+	height: 130px; /* Whatever you want. */
+	
 }
 
 .navbar-right {
 	padding-top: 10px;
 }
+
+#cont{
+	padding-top: 150px;
+}
+
 
 .active a {
 	background-color: blue !important;
